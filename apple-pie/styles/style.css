@@ -24,15 +24,19 @@ html, body {
 
 #intro {
     display: flex;
-    flex-direction: column
-    width: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    padding: 50px 300px 50px 300px;
     height: 100px;
     margin: auto;
-    text-align: center;
+    text-align: center, justify;
     font-family: Roboto;
-    font-weight: light;
+    font-weight: thin;
+    font-size: 140%;
     position:relative;
-    color: grey;
+    color: black;
 }
 
 img {
@@ -44,15 +48,16 @@ img {
     font-family: Roboto;
     font-weight: light;
     font-size: 20px;
+    margin-left: 300px;
   }
 
 ul li {
     width: 600px;
     height: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: 200px;
     margin-left: 200px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     text-align: center;
     font-family: Roboto;
     font-weight: light;
@@ -62,11 +67,15 @@ ul li {
 nav ul {
     
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: justify;
         align-content: center;
-    list-style-type: none;
+        height: 900;
+        margin: 50px 50px 50px 50px;
+        list-style-type: none;
+        position: relative;
 }
+
 
